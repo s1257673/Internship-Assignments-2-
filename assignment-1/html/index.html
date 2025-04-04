@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OXYIOT - Clean Air</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="../resources/images/logo.jpg" alt="OXYIOT Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Blogs</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <button class="login-btn">LOGIN</button>
+            <div class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar" style="width: 20px;"></span>
+                <span class="bar"></span>
+              </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Your First <br> Step to Clean Air</h1>
+                <p>Take health, safety, and comfort to a whole new <br> level with the most advanced indoor air quality monitor.</p>
+                <button class="cta-button">GET IN TOUCH &#8594;</button>
+            </div>
+
+            <div class="contact-box">
+                <div class="contact-icon">
+                    <img src="../resources/images/location.jpg" alt="Location Icon">
+                </div>
+                <div class="contact-text">
+                    <a href="mailto:info@oxyiot.com">info@oxyiot.com</a>
+                    <span>+91 63987 17255</span>
+                </div>
+            </div>
+        </section>    
+    </main>
+
+    <section class="about">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="../resources/images/smoke-image.png" alt="Air Pollution">
+            </div>
+            <div class="about-content">
+                <h5>ABOUT US</h5>
+                <h2>Monitoring Air Quality Is Just The First Step.</h2>
+                <p>
+                    Oxyiot offers commercial air quality monitoring solutions with advanced software analytics, 
+                    and a team of seasoned IAQ experts, to help you understand and optimize your environment.
+                </p>
+                <p>Let us help you transform your space into something extraordinary.</p>
+                <button class="know-more-btn">KNOW MORE ↗</button>
+            </div>
+        </div>
+    </section>
+    
+    <section class="products-section">
+        <div class="products-container">
+            <h2>Our Latest Products</h2>
+            <div class="product-cards">
+                <!-- <button class="arrow-button left-arrow">&lt;</button> -->
+                <button class="arrow-button left-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" fill="white"/>
+                        <path d="M14 16L10 12L14 8" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                
+                <div class="product-card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="../resources/images/product1.png" alt="Oxyiot Air Quality Meter">
+                            <div class="heart-icon"  onclick="toggleLike(this)" >&#x2661;</div>
+                        </div>
+                        <div class="card-details">
+                            <h3>Oxyiot Air Quality Meter</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <div class="price">
+                                <span class="current-price">₹ 1999.00</span>
+                                <span class="old-price">₹ 2599.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="../resources/images/product2.png"  alt="Oxyiot Pro Touch">
+                            <div class="heart-icon" onclick="toggleLike(this)" >&#x2661;</div>
+                        </div>
+                        <div class="card-details">
+                            <h3>Oxyiot Pro Touch</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <div class="price">
+                                <span class="current-price">₹ 1999.00</span>
+                                <span class="old-price">₹ 2599.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="card-content">
+                        <div class="card-image">
+                            <img src="../resources/images/product3.png" alt="Oxyiot Pro Touch Mini">
+                            <div class="heart-icon"  onclick="toggleLike(this)" >&#x2661;</div>
+                        </div>
+                        <div class="card-details">
+                            <h3>Oxyiot Pro Touch Mini</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <div class="price">
+                                <span class="current-price">₹ 1999.00</span>
+                                <span class="old-price">₹ 2599.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="arrow-button right-arrow">&gt;</button> -->
+                 
+                <button class="arrow-button right-arrow">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="12" cy="12" r="10" fill="white"/>
+                        <path d="M10 8L14 12L10 16" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <div class="products-container">
+            <div class="product-cards">
+                </div>
+            <button class="view-more-button">VIEW MORE ↗</button>
+        </div>
+    
+    </section>
+
+
+    <section class="optimize-section">
+        <div class="optimize-content">
+            <h2>Optimize Your Air So You Can <br> Maximize Your Life</h2>
+            <p>Indoor air quality affects your overall health and well-being. Let Uhloo measure and monitor your air quality for a healthier indoor environment.</p>
+        </div>
+        <div class="optimize-cards">
+            <div class="vertical-card">
+                <div class="card-image">
+                    <img src="../resources/images/sleep.png" alt="Better Sleep">
+                </div>
+                <div class="card-text">
+                    <h3>Better Sleep</h3>
+                    <p>Oxylot optimizes temperature, humidity, and airflow—so you stay perfectly cozy under the sheets.</p>
+                </div>
+            </div>
+            <div class="vertical-card">
+                <div class="card-image">
+                    <img src="../resources/images/3-pose.png" alt="Less Allergies">
+                </div>
+                <div class="card-text">
+                    <h3>Less Allergies</h3>
+                    <p>Identify harmful products, prevent dust buildup, and stop allergies before they start.</p>
+                </div>
+            </div>
+            <div class="horizontal-card">
+                <div class="card-image">
+                    <img src="../resources/images/focus.png" alt="More Focus and Productivity">
+                </div>
+                <div class="card-text">
+                    <h3>More Focus and Productivity</h3>
+                    <p>Oxylot ensures your environment is always comfortable, healthy, and safe so you can maximize focus, well-being and productivity.</p>
+                </div>
+            </div>
+        </div>
+        <button class="upgrade-button">UPGRADE YOUR AIR &#8594;</button>
+    </section>
+
+    <section class="sound-section">
+        <div class="sound-content">
+            <button class="sound-button">SOUND ON</button>
+        </div>
+    </section>
+
+    <section class="why-choose-section">
+        <div class="why-choose-container">
+            <h2>Why Choose Oxyiot?</h2>
+            <div class="why-choose-grid">
+                <div class="why-choose-card">
+                    <div class="card-icon">
+                        <img src="../resources/images/Vector.png" alt="Promote Health & Well-Being">
+                    </div>
+                    <div class="card-content">
+                        <h3>Promote Health & Well-Being</h3>
+                        <p>There are many variations of passages form lorem ipsum available, but the form of majority have suffered.</p>
+                    </div>
+                </div>
+                <div class="why-choose-card">
+                    <div class="card-icon">
+                        <img src="../resources/images/Vector.png" alt="Promote Health & Well-Being">
+                    </div>
+                    <div class="card-content">
+                        <h3>Promote Health & Well-Being</h3>
+                        <p>There are many variations of passages form lorem ipsum available, but the form of majority have suffered.</p>
+                    </div>
+                </div>
+                <div class="why-choose-card">
+                    <div class="card-icon">
+                        <img src="../resources/images/Vector.png" alt="Improve Facility Management">
+                    </div>
+                    <div class="card-content">
+                        <h3>Improve Facility Management</h3>
+                        <p>There are many variations of passages form lorem ipsum available, but the form of majority have suffered.</p>
+                    </div>
+                </div>
+                <div class="why-choose-card">
+                    <div class="card-icon">
+                        <img src="../resources/images/Vector.png" alt="Encourage Return To Work">
+                    </div>
+                    <div class="card-content">
+                        <h3>Encourage Return To Work</h3>
+                        <p>There are many variations of passages form lorem ipsum available, but the form of majority have suffered.</p>
+                    </div>
+                </div>
+                <div class="why-choose-card">
+                    <div class="card-icon">
+                        <img src="../resources/images/Vector.png" alt="Optimize Energy Usage">
+                    </div>
+                    <div class="card-content">
+                        <h3>Optimize Energy Usage</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+                <div class="why-choose-card">
+                    <div class="card-icon">
+                        <img src="../resources/images/Vector.png" alt="Increase Property Value">
+                    </div>
+                    <div class="card-content">
+                        <h3>Increase Property Value</h3>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="download-section">
+        <div class="download-container">
+            <div class="download-image">
+                <img src="../resources/images/oxy-iot-mobile.png" style="border-radius: 10px;" alt="Oxyiot App on Phone">
+            </div>
+            <div class="download-content">
+                <span class="download-subtitle">BREATHE EASY</span>
+                <h2 class="download-title">Download Oxyiot Now</h2>
+                <p class="download-description">Transform your surroundings into a reflection of your personality and needs. Whether you're designing a cozy home or a dynamic workspace, the right setup can elevate both function and style. We help you create spaces that enhance comfort boost.</p>
+                <div class="download-buttons">
+                    <a href="#" class="google-play-button">
+                        <img src="../resources/images/play-store.png" alt="Get it on Google Play">
+                    </a>
+                    <a href="#" class="app-store-button">
+                        <img src="../resources/images/app-store.png" alt="Download on the App Store">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="testimonial-section">
+        <h2 class="testimonial-heading">Our Clients Love Us</h2>
+    
+        <div class="testimonial-slider">
+            <span class="navigation prev">&#10094;</span>
+    
+            <div class="testimonial-card">
+                <img src="../resources/images/Darcl-black.png" class="logo" alt="CJ Darcl">
+                <p>Oxyiot has completely changed how I manage my home's air quality...</p>
+                <p class="client-name">SHUBHAM</p>
+            </div>
+    
+            <div class="testimonial-card">
+                <img src="../resources/images/Darcl-black.png" class="logo" alt="CJ Darcl">
+                <p>I've been using the Oxyiot air quality meter for weeks, and it's a game-changer!</p>
+                <p class="client-name">SREYASH SHAH</p>
+            </div>
+    
+            <div class="testimonial-card">
+                <img src="../resources/images/Darcl-black.png" class="logo" alt="CJ Darcl">
+                <p>The real-time readings are super accurate, and the app is easy to use.</p>
+                <p class="client-name">RAHUL VERMA</p>
+            </div>
+    
+            <span class="navigation next">&#10095;</span>
+        </div>
+    </section>
+
+
+
+    <section class="insights-section">
+        <div class="insights-container">
+            <h2>Insight And Articles</h2>
+            <div class="insights-cards">
+                <div class="insight-card">
+                    <img src="../resources/images/insight1.png" alt="10 Innovative Ways To Use IAQ Data for Healthy Buildings">
+                    <div class="insight-content">
+                        <h3>10 Innovative Ways To Use IAQ Data for Healthy Buildings</h3>
+                        <p>For forward-thinking organizations, improving indoor air quality is a matter of strategic importance. Air quality impacts health, wellbeing, productivity.</p>
+                        <a href="#" class="read-more-link">&#x2197;</a>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <img src="../resources/images/insight2.png" alt="Thermal Comfort Monitoring: Basics and Best Practices">
+                    <div class="insight-content">
+                        <h3>Thermal Comfort Monitoring: Basics and Best Practices</h3>
+                        <p>Thermal comfort describes the condition of the mind that is satisfied with the temperature in its surrounding environment.</p>
+                        <a href="#" class="read-more-link">&#x2197;</a>
+                    </div>
+                </div>
+                <div class="insight-card">
+                    <img src="../resources/images/insight3.png" alt="Tips for Reducing CO2 Emissions Trapped in Your Office">
+                    <div class="insight-content">
+                        <h3>Tips for Reducing CO2 Emissions Trapped in Your Office</h3>
+                        <p>For forward-thinking organizations, improving indoor air quality is a matter of strategic importance. Air quality impacts health, wellbeing, productivity.</p>
+                        <a href="#" class="read-more-link">&#x2197;</a>
+                    </div>
+                </div>
+            </div>
+            <button class="view-more-button">VIEW MORE &#x27A1;</button>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="faq-container">
+            <h2 style="text-align: center; font-size: 180%; color: #2596be;">Frequently Asked Questions</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>01. What building certifications are Oxyiot monitors compliant with?</span>
+                        <button class="faq-toggle">-</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>02. How often do I have to replace the air quality sensor modules?</span>
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>03. Where should I place Oxyiot air quality monitors?</span>
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>04. How many air quality monitors do I need for my project?</span>
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>05. What are the main pollutants of concern to the environment and human health?</span>
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>06. What is Particulate Matter and how does it get into the atmosphere?</span>
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>07. What are the primary sources of air pollution in India?</span>
+                        <button class="faq-toggle">+</button>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero-section">
+        <div class="hero-container">
+            <h1>TRANSFORM YOUR AIR WITH OXYIOT</h1>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking<br> at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using content here making it look like readable English.</p>
+            <button class="lets-talk-button">LET'S TALK  ↗</button>
+            <p class="copyright">&copy; 2025 All rights reserved by <a href="#" style="color: greenyellow;text-decoration: none;">Oxyiot</a></p>
+        </div>
+    </section>
+    
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img src="../resources/images/logo.jpg" alt="Oxyiot Logo">
+            </div>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="footer-social">
+                <a href="#" class="social-icon facebook"></a>
+                <a href="#" class="social-icon instagram"></a>
+                <a href="#" class="social-icon twitter"></a>
+                <a href="#" class="social-icon youtube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
