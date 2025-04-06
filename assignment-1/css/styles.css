@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -58,39 +59,32 @@ nav ul li a {
 }
 
 .menu-icon {
-  display: inline-block; 
-  cursor: pointer; 
-}
-
-/* .menu-icon:hover {
-    background-color: #1a8c30;
-} */
-
-.bar {
-  width: 30px; 
-  height: 4px; 
-  background-color: #64DD17; 
-  margin: 6px 0; 
-  border-radius: 2px;
-  display: block; 
-  transition: 0.4s; 
+    display: inline-block;
+    cursor: pointer;
 }
 
 .bar {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); 
-  background: linear-gradient(to bottom, #64DD17, #59C615); 
+    width: 30px;
+    height: 4px;
+    background-color: #64DD17;
+    margin: 6px 0;
+    border-radius: 2px;
+    display: block;
+    transition: 0.4s;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #64DD17, #59C615);
 }
 
 .menu-icon.active .bar:nth-child(1) {
-  transform: rotate(-45deg) translate(-7px, 6px); 
+    transform: rotate(-45deg) translate(-7px, 6px);
 }
 
 .menu-icon.active .bar:nth-child(2) {
-  opacity: 0;
+    opacity: 0;
 }
 
 .menu-icon.active .bar:nth-child(3) {
-  transform: rotate(45deg) translate(-7px, -6px);
+    transform: rotate(45deg) translate(-7px, -6px);
 }
 
 .hero {
@@ -99,7 +93,7 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 60px 100px;
-    background-image: url('../resources/images/image.png'); 
+    background-image: url('../resources/images/image.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -137,15 +131,14 @@ nav ul li a {
     background-color: #1a8c30;
 }
 
-
 .contact-box {
     position: absolute;
-    bottom: 30px; 
+    bottom: 30px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     align-items: center;
-    background: transparent; 
+    background: transparent;
     border-radius: 50px;
     padding: 10px 20px;
     width: fit-content;
@@ -154,7 +147,7 @@ nav ul li a {
 }
 
 .contact-icon img {
-    width: 24px; 
+    width: 24px;
     margin-right: 10px;
     border-radius: 30px;
 }
@@ -162,7 +155,7 @@ nav ul li a {
 .contact-text {
     display: flex;
     align-items: center;
-    gap: 15px; 
+    gap: 15px;
 }
 
 .contact-text a,
@@ -172,21 +165,10 @@ nav ul li a {
     text-decoration: underline;
 }
 
-/* .contact-text a:hover {
-    text-decoration: underline;
-} */
-
-
-
 .contact-box {
-    /* background: rgba(255, 255, 255, 0.15);  */
     backdrop-filter: blur(2px);
-    border: 1px solid rgba(255, 255, 255, 0.4); 
-    /* box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2); */
+    border: 1px solid rgba(255, 255, 255, 0.4);
 }
-
-
-
 
 .hero {
     position: relative;
@@ -207,8 +189,6 @@ nav ul li a {
     position: relative;
     z-index: 2;
 }
-
-
 
 .about {
     display: flex;
@@ -302,17 +282,13 @@ nav ul li a {
 }
 
 .product-card:hover {
-    transform: translateY(-10px); 
-    border: 2px solid #64DD17; 
+    transform: translateY(-10px);
+    border: 2px solid #64DD17;
 }
 
 .card-content {
     display: flex;
     flex-direction: column;
-}
-
-.card-image {
-    position: relative;
 }
 
 .card-image img {
@@ -384,7 +360,7 @@ nav ul li a {
 
 .view-more-button {
     background-color: transparent;
-    border: 2px solid #64DD17; 
+    border: 2px solid #64DD17;
     color: white;
     padding: 12px 24px;
     border-radius: 25px;
@@ -395,10 +371,9 @@ nav ul li a {
 }
 
 .view-more-button:hover {
-    background-color: #64DD17; 
+    background-color: #64DD17;
     color: black;
 }
-
 
 .optimize-section {
     background-color: #1A1A1A;
@@ -482,18 +457,15 @@ nav ul li a {
     color: black;
 }
 
-
-
 .sound-section {
-    background-color: #0A192F; 
+    background-color: #0A192F;
     position: relative;
-    height: 150vh; 
-    /* height: 80vh;  */
+    height: 150vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden; 
-    background-image: url('../resources/images/global-network.png'); 
+    overflow: hidden;
+    background-image: url('../resources/images/global-network-smart-city-background-technology-digital-remix.png');
     background-size: cover;
     background-position: center;
 }
@@ -505,10 +477,10 @@ nav ul li a {
 .sound-button {
     background-color: #64DD17;
     color: black;
-    width: 100px; 
-    height: 100px; 
+    width: 100px;
+    height: 100px;
     border: none;
-    border-radius: 50%; 
+    border-radius: 50%;
     font-size: 16px;
     cursor: pointer;
     font-weight: bold;
@@ -526,7 +498,7 @@ nav ul li a {
     font-size: 50px;
 }
 .why-choose-section {
-    background-color: #1A1A1A; 
+    background-color: #1A1A1A;
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -545,19 +517,16 @@ nav ul li a {
 }
 
 .why-choose-card {
-    background-color: #282828; 
+    background-color: #282828;
     border-radius: 10px;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     text-align: center;
 }
 
-
-
 .card-icon img {
-    width: 50px; 
+    width: 50px;
     height: auto;
     margin-bottom: 20px;
 }
@@ -573,24 +542,22 @@ nav ul li a {
 }
 
 .card-icon {
-    width: 40px; 
-    height: 40px; 
+    width: 40px;
+    height: 40px;
     background-color: #2f7603;
-    border-radius: 100px; 
+    border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px; 
-    transition: background-color 0.3s ease; 
-
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
 }
 
 .card-icon img {
-    width: 30px; 
+    width: 30px;
     height: auto;
     padding : 2px;
     margin-top: 17px;
-    
 }
 
 .why-choose-grid :hover{
@@ -601,9 +568,8 @@ nav ul li a {
     }
 }
 
-
 .download-section {
-    background-color: #282828; 
+    background-color: #282828;
     color: white;
     padding: 50px 20px;
 }
@@ -622,7 +588,7 @@ nav ul li a {
 }
 
 .download-image img {
-    max-width: 300px; 
+    max-width: 300px;
     height: auto;
 }
 
@@ -659,7 +625,6 @@ nav ul li a {
     height: 60px;
 }
 
-
 .testimonial-section {
     text-align: center;
     padding: 50px 0;
@@ -672,7 +637,6 @@ nav ul li a {
     font-weight: bold;
     margin-bottom: 20px;
 }
-
 
 .testimonial-slider {
     display: flex;
@@ -689,9 +653,6 @@ nav ul li a {
     text-align: center;
     color: white;
     transition: all 0.3s ease-in-out;
-    .logo{
-        background-image: url("../resources/images/Darcl-black.png");
-    }
 }
 
 .testimonial-card.active {
@@ -700,7 +661,6 @@ nav ul li a {
     transform: scale(1.1);
     box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.2);
     border: 2px solid greenyellow;
-
 }
 
 .client-name {
@@ -708,7 +668,6 @@ nav ul li a {
     color: #68c63c;
     margin-top: 10px;
 }
-
 
 .navigation {
     cursor: pointer;
@@ -722,11 +681,8 @@ nav ul li a {
     border: 1px solid lawngreen;
 }
 
-
-
-
 .insights-section {
-    background-color: #1A1A1A; 
+    background-color: #1A1A1A;
     color: white;
     text-align: center;
     padding: 50px 20px;
@@ -745,9 +701,9 @@ nav ul li a {
 }
 
 .insight-card {
-    background-color: #282828; 
+    background-color: #282828;
     border-radius: 10px;
-    overflow: hidden; 
+    overflow: hidden;
     width: 350px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
@@ -766,7 +722,7 @@ nav ul li a {
 .insight-content {
     padding: 20px;
     text-align: left;
-    position: relative; 
+    position: relative;
 }
 
 .insight-content h3 {
@@ -781,18 +737,15 @@ nav ul li a {
 }
 
 .read-more-link {
-    /* background-color: #676965; */
     color: white;
     border: 1px solid gray;
     padding: 10px 15px;
-    border-radius: 60%; 
+    border-radius: 60%;
     position: absolute;
     bottom: 10px;
     right: 10px;
     text-decoration: none;
     font-size: 25px;
-    /* transform: 20ms; */
-    
 }
 
 .read-more-link:hover{
@@ -801,7 +754,7 @@ nav ul li a {
 
 .view-more-button {
     background-color: transparent;
-    border: 2px solid #64DD17; 
+    border: 2px solid #64DD17;
     color: white;
     padding: 12px 24px;
     border-radius: 25px;
@@ -809,17 +762,15 @@ nav ul li a {
     cursor: pointer;
     margin-top: 30px;
     transition: background-color 0.3s ease, color 0.3s ease;
-    background-color: #64DD17; 
+    background-color: #64DD17;
 }
 
 .view-more-button:hover {
-
     color: black;
 }
 
-
 .faq-section {
-    background-color: #1c1c1c; 
+    background-color: #1c1c1c;
     color: white;
     padding: 50px 20px;
 }
@@ -834,10 +785,10 @@ nav ul li a {
 }
 
 .faq-item {
-    background-color: #1c1c1c; 
+    background-color: #1c1c1c;
     border-radius: 20px;
     margin-bottom: 15px;
-    overflow: hidden; 
+    overflow: hidden;
     border: 1px solid green;
 }
 
@@ -863,7 +814,7 @@ nav ul li a {
 
 .faq-answer {
     padding: 0 20px 20px;
-    display: none; 
+    display: none;
 }
 
 .faq-answer p {
@@ -873,20 +824,19 @@ nav ul li a {
 }
 
 .faq-item.active .faq-answer {
-    display: block; 
+    display: block;
 }
 
 .faq-item.active .faq-toggle {
-    content: '-'; 
+    content: '-';
 }
 
-
 .hero-section {
-    background-color: #1A1A1A; 
+    background-color: #1A1A1A;
     color: white;
     text-align: center;
     padding: 100px 20px;
-    position: relative; 
+    position: relative;
 }
 
 .hero-container {
@@ -897,7 +847,7 @@ nav ul li a {
 .hero-section h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #64DD17; 
+    color: #64DD17;
 }
 
 .hero-section p {
@@ -908,7 +858,7 @@ nav ul li a {
 
 .lets-talk-button {
     background-color: transparent;
-    border: 2px solid #64DD17; 
+    border: 2px solid #64DD17;
     color: white;
     padding: 12px 24px;
     border-radius: 25px;
@@ -918,7 +868,7 @@ nav ul li a {
 }
 
 .lets-talk-button:hover {
-    background-color: #64DD17; 
+    background-color: #64DD17;
     color: black;
 }
 
@@ -928,7 +878,6 @@ nav ul li a {
     color: #BDBDBD;
 }
 
-
 .hero-section::after {
     content: "";
     position: absolute;
@@ -936,14 +885,14 @@ nav ul li a {
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: #333; 
+    background-color: #333;
 }
 
 .footer-section {
     background-color: #1A1A1A;
     color: white;
     padding: 20px 0;
-    position: relative; 
+    position: relative;
 }
 
 .footer-container {
@@ -956,7 +905,7 @@ nav ul li a {
 }
 
 .footer-logo img {
-    height: 30px; 
+    height: 30px;
 }
 
 .footer-nav ul {
@@ -987,7 +936,7 @@ nav ul li a {
 
 .facebook {
     background-image: url('../resources/images/facebook-icon.png');
-    background-color: #1877F2; 
+    background-color: #1877F2;
 }
 
 .instagram {
@@ -1009,5 +958,113 @@ nav ul li a {
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: #333; 
+    background-color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 20px;
+    }
+
+    nav ul {
+        display: none; /* Hide navigation on mobile */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px; /* Adjust as needed */
+        left: 0;
+        background-color: black;
+        text-align: center;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .menu-icon {
+        display: block; /* Show menu icon on mobile */
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        height: auto;
+    }
+
+    .hero-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .contact-box {
+        position: static;
+        transform: none;
+        margin-top: 30px;
+    }
+
+    .about-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .products-cards {
+        flex-direction: column;
+    }
+
+    .product-card {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .optimize-cards {
+        flex-direction: column;
+    }
+
+    .vertical-card,
+    .horizontal-card {
+        width: 90%;
+    }
+
+    .why-choose-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .download-container {
+        flex-direction: column;
+    }
+
+    .download-content {
+        padding: 20px;
+    }
+
+    .insights-cards {
+        flex-direction: column;
+    }
+
+    .insight-card {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-nav ul {
+        flex-direction: column;
+    }
 }
